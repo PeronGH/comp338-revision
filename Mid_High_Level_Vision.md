@@ -51,7 +51,7 @@
   3. Assign orientations to each keypoint
      - Contribute to rotation invariance
   4. Determine descriptors for each keypoint
-     - Multi-dimensional feature vector
+     - 128-dimensional feature vector
 
 - Pros:
   - Very robust, invariant to scaling and rotation

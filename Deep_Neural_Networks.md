@@ -119,7 +119,16 @@ Where:
 
 ### ReLU
 
+* **Formula:**  $f(x) = max(0, x)$  
+* **Graph:** A straight line at zero for all negative inputs, and a straight line with slope 1 for all positive inputs. It essentially "rectifies" negative values to zero.
+* **Explanation:** ReLU replaces all negative input values with zero.  Positive values remain unchanged.
+
 ### Sigmoid
+
+* **Formula:**  $f(x) = \frac{1}{1 + e^{-x}}$ also known as the logistic function.
+* **Graph:** An 'S'-shaped curve that smoothly transitions from 0 to 1.  Outputs are bound between 0 and 1.
+* **Explanation:** Sigmoid squashes any input value (from negative infinity to positive infinity) into the range between 0 and 1.   This is often interpreted as a probability.
+* **Derivative:** $\sigma{\prime}(x) = \sigma(x) \cdot (1 - \sigma(x))$
 
 ### Softmax
 

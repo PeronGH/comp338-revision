@@ -79,7 +79,7 @@ Where:
 
 - Example: $\begin{bmatrix} \frac 1 9 & \frac 1 9 & \frac 1 9 \\ \frac 1 9 & \frac 1 9 & \frac 1 9 \\ \frac 1 9 & \frac 1 9 & \frac 1 9 \end{bmatrix}$
 
-#### 1D Discrete Derivate Filters
+#### 1D Discrete Derivative Filters
 
 For the image $\begin{bmatrix}f(x-1)&f(x)&f(x+1)\end{bmatrix}$:
 
@@ -95,7 +95,7 @@ For the image $\begin{bmatrix}f(x-1)&f(x)&f(x+1)\end{bmatrix}$:
   - $\begin{bmatrix}-1&0&1\end{bmatrix}$
   - $f(x+1)-f(x+1)=f'(x)$
 
-#### 2D Discrete Derivate Filters
+#### 2D Discrete Derivative Filters
 
 - Gradient vector: $\nabla f(x,y)=\begin{bmatrix}\frac{\partial f(x, y)}{\partial x}\\\frac{\partial f(x, y)}{\partial y}\end{bmatrix}=\begin{bmatrix}f_x\\f_y\end{bmatrix} $
 
