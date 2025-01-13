@@ -187,6 +187,8 @@ Where:
 
 - **Discriminator:** try to distinguish between real and fake images
 
+- **Application**: image generation, video generation
+
 - **Training:**
 
 $$
