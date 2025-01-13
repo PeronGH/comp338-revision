@@ -81,7 +81,8 @@
 
 - **Gradient Descent**: $w_\text{new} = w_\text{old} - \alpha  \frac{\partial L}{\partial w}$
   - By default, learning rate $\alpha = 1$
-  - If loss function is not provided, then assume $\frac{\partial L}{\partial y} = 1$
   - For $y = wx+b$:
-    - By chain rule, $\frac{\partial L}{\partial w} = \frac{\partial L}{\partial y} \cdot \frac{\partial y}{\partial w}$ where $\frac{\partial y}{\partial w} = x$
+    - By **chain rule**, $\frac{\partial L}{\partial w} = \frac{\partial L}{\partial y} \cdot \frac{\partial y}{\partial w}$
+    - $\frac{\partial L}{\partial y} = 1$ or the value of error (based on loss function)
+    - $\frac{\partial y}{\partial w} = x$
 

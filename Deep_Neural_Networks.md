@@ -155,7 +155,37 @@ Where:
       - More activation layers, more non-linearity, better model representation
   - Reduce feature map sizes, increase feature map depth
   - Repeat convolution-activation-pooling, and finally fully connected network
-  - ResNet: very depp networks using residual connections
+  - ResNet: very deep networks using residual connections
+
+- **Object Detection**
+
+  - Sliding window based– one stage
+    - YOLO
+
+  - Region proposal based– two stage
+
+    - R-CNN
+
+    - Fast R-CNN
+
+    - Faster R-CNN
+
+- **Object Segmentation**
+
+  - Sliding Window + Classification of each pixel
+
+  - Fully Convolutional Networks (FCN)
+
+    - FCN
+
+    - UNet
+
+    - SegNet
+
+    - PSPNet
+
+  - Instance Segmentation
+    - Mask RCNN
 
 ## Transfer learning
 
